@@ -1,5 +1,21 @@
 .box {
-    color: red;
-    width: 40px;
-    height: 40px;
+    background-color: red;
+   width: 70px;
+   height: 70px;
+}
+.box:nth-child(2) {
+    background-color: green;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   left: 40px;
+   top: 40px;
+   z-index: 2;
+}
+.box:nth-child(3) {
+    background-color: blue;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   left: 72px;
 }
