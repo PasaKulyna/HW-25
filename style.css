@@ -4,7 +4,7 @@
    height: 70px;
 }
 .box:nth-child(2) {
-    background-color: green;
+    background-color: blue;
    width: 70px;
    height: 70px;
    position: absolute;
@@ -13,7 +13,7 @@
    z-index: 2;
 }
 .box:nth-child(3) {
-    background-color: blue;
+    background-color: lightgreen;
    width: 70px;
    height: 70px;
    position: absolute;
